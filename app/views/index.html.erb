@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <title>home - treat yo self</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+
+ body {
+    background-image: url("https://i.pinimg.com/originals/49/e4/33/49e4336af845b52af5c95b68e64bb081.jpg");
+    min-height: 100%;
+}
+
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.white {
+  background-color: white;
+}
+
+/*.bgimg-1*/
+/* turn off parallax for tablets/phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+<br><br><br><br><br><br>
+<!-- navbar -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button">home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small"></i> about</a>
+    <a href="quiz.html" class="w3-bar-item w3-button w3-hide-small"></i> quiz</a>
+    <a href="motivation.html" class="w3-bar-item w3-button w3-hide-small"></i> motivation</a>
+    <a href="selfcare.html" class="w3-bar-item w3-button w3-hide-small"></i> self-care</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">home</a>
+    <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()">about</a>
+    <a href="quiz.html" class="w3-bar-item w3-button" onclick="toggleFunction()">quiz</a>
+    <a href="motivation.html" class="w3-bar-item w3-button" onclick="toggleFunction()">motivation</a>
+    <a href="selfcare.html" class="w3-bar-item w3-button" onclick="toggleFunction()">self-care</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- logo thing -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">treat<span class="w3-hide-small"> yo</span> self</span>
+  </div>
+</div>
+
+
+<!-- about us -->
+<div class = "white">
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">our mission</h3>
+  <p class="w3-center"><em>"almost everything will work again if you unplug it for a few minutes, including you." -anne lamott</em></p>
+  <center>
+    <p>in today’s society, self-care is widely underrepresented. in fact, in 2017, only 48% of leaders admitted to taking time for themselves, ultimately detaching themselves from work. our goal is to help YOU prioritize yourself in a way at which motivation can appeal better to you. there is always time to better yourself. don’t procrastinate from a better quality of life.</p>
+  </center>
+<br><br>
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">100%</span><br>
+    happiness
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">100%</span><br>
+    motivated
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">100%</span><br>
+    productive
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">100%</span><br>
+    stress-free
+  </div>
+</div>
+
+<!-- parallax image -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide"></span>
+  </div>
+</div>
+
+
+<!-- thx kwk! -->
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">made with the love of kode with klossy!</h3>
+  <p class="w3-center"><em>shoutout to all the teachers that helped us make treat yo' self a possibility, make sure to treat yo' self for all the hard work you've done!</em></p>
+
+</div>
+</div>
+</div>
+<!-- footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <center>
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>to the top</a>
+  </center>
+
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+
+<script>
+
+// change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+</body>
+</html>
